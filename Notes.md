@@ -9,6 +9,7 @@ My deep learning  notes
 | ANN  |  Artificial Neural Network  |
 | Layer | Organized Neurons |
 | Deep Network | A Network with more than one hidden layer |
+| Activation Function | Non linear function that follows a dense layer |
 
 ### Other notes
 
@@ -60,7 +61,7 @@ Keras is a simple API for describing neural networks
 
 ### Dense
 
-This is the most basic layer in a neural network.
+This is the most basic layer in a neural network. It connects it's inputs to it's outputs.
 
 ## The Sequential Model
 
