@@ -50,6 +50,5 @@ model2.fit(
     epochs=500
 )
 
-
 print(model.predict([10, 11]))
 print(model2.predict([16]))
