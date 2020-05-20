@@ -40,14 +40,15 @@ How many neurons should I assign to each layer?
 | Hidden | Arbitrarily Chosen |
 | Output | One node for each of the possible desired outcomes |
 
-So how would we implement such a network in Kera
-s?
+So how would we implement such a network in Keras? The following is a Keras implementation of the Neural network above
 
 ```python
 from keras.models import Sequential
+from keras.layers import Dense
 
 model = Sequential([
-    Dense(units=3, input_shape)
+    Dense(4, input_shape=(3,)),
+    Dense(2)
 ])
 ```
 
