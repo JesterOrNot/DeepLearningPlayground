@@ -1,2 +1,5 @@
 tensorflow
 numpy
+graphiz
+ann_visualizer
+keras
