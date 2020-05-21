@@ -7,3 +7,5 @@ RUN sudo apt-get update -qq \
        texlive-full \
        inotify-tools \
     && sudo rm -rf /var/lib/apt/lists/*
+
+RUN brew install pandoc
