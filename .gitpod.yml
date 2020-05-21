@@ -4,13 +4,12 @@ tasks:
   - name: LaTeX auto-rebuild
     command: >
       while find . -name '*.tex' | xargs inotifywait -qqre modify .; do \
-        latexpdf notes.tex ; \
+        echo X | pdflatex notes.tex || echo "Error"; \
       done
   - init: pip3 install -r requirements.txt
 vscode:
   extensions:
     - efoerster.texlab@1.10.0:/Vq+k9Ug/81LYWajjTgMpA==
-    - James-Yu.latex-workshop@8.9.0:gTgjuW3GBGhya2rX2EboWw==
 github:
   prebuilds:
     branches: true
