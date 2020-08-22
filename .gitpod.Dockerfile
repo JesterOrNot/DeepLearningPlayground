@@ -22,4 +22,5 @@ RUN sudo apt-get update -qq \
       python3-h5py \
       python3-yaml \
       python3-pydot \
+      cuda \
     && sudo rm -rf /var/lib/apt/lists/*
