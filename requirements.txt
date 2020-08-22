@@ -4,3 +4,4 @@ graphviz
 ann_visualizer
 keras
 kaggle
+pillow
