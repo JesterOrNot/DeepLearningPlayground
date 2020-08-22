@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
 RUN sudo apt-get update -qq \
     && sudo apt-get install -yq \
